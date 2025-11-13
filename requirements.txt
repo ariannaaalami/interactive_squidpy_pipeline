@@ -1,0 +1,25 @@
+# --- Core scientific stack ---
+numpy>=1.23
+pandas>=2.0
+scipy>=1.10
+anndata>=0.10.5
+h5py>=3.8
+
+# --- Scanpy + ecosystem ---
+scanpy>=1.10
+scvelo>=0.3.2
+pooch>=1.7
+
+# --- Plotting and visuals ---
+plotly>=5.22
+
+# --- Dash app components ---
+dash>=2.17
+dash-core-components>=2.0
+dash-html-components>=2.0
+dash-table>=5.0
+
+# --- Optional but recommended for layout and speed ---
+igraph>=0.11
+python-igraph>=0.11
+leidenalg>=0.10
